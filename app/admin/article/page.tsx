@@ -11,11 +11,11 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-export default function UserManagementPage() {
+export default function ArticlePage() {
     return (
         <Card className="m-6">
-            <h1 className="text-2xl font-bold mb-2">User Management</h1>
-            <p>Manage your users here.</p>
+            <h1 className="text-2xl font-bold mb-2">Article Management</h1>
+            <p>Manage your articles here.</p>
             <Table className="mt-4">
                 <TableHeader>
                     <TableRow>
