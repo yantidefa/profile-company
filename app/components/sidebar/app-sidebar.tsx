@@ -11,32 +11,37 @@ import {
     SidebarGroupContent,
     SidebarMenuButton,
 } from "@/components/ui/sidebar"
-import { UsersRound, List, FileText, ClipboardList, Landmark } from "lucide-react"
+import { UsersRound, List, FileText, ClipboardList, Landmark, House } from "lucide-react"
 
 const listMenu = [
     { 
+        "name" : "Dashboard", 
+        "url" : "/admin",
+        "icon" : House
+    },
+    { 
         "name" : "User Management", 
-        "url" : "/user-management",
+        "url" : "/admin/user-management",
         "icon" : UsersRound
     },
     { 
-        "name" : "Category", 
-        "url" : "/category",
+        "name" : "Categories", 
+        "url" : "/admin/categories",
         "icon" : List
     },
     { 
         "name" : "Jurusan", 
-        "url" : "/jurusan",
+        "url" : "/admin/jurusan",
         "icon" : ClipboardList
     },
     { 
         "name" : "Article", 
-        "url" : "/article",
+        "url" : "/admin/article",
         "icon" : FileText
     },
     { 
         "name" : "Profile", 
-        "url" : "/profile",
+        "url" : "/admin/profile",
         "icon" : Landmark
     }
 ]
